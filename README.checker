@@ -1,0 +1,35 @@
+# Darius-Florentin Neatu <neatudarius@gmail.com>
+# Copyright 2018
+
+Rulare:
+	- local:
+		./check.sh
+
+	* sursele + Makefile trebuie sa se afle in directorul curent
+
+Run time error = eroare aparuta in timpul rularii unui test
+TLE = time limit exceeded (s-a depasit limita de timp a testului curent)
+WA = wrong answer (valoarea din fisierul .out difera de cea din .ref)
+
+Timpi de executie problema $id:
+	- C/C++: _utils/timeout/c.timeout$id
+
+	-  Java: _utils/timeout/java.timeout$id
+
+Checker coding style:
+	- C/C++: utils/coding_style/check_cpp.py
+		- sursa: https://google.github.io/styleguide/cppguide.html
+
+	-  Java: utils/coding_style/check_java.jar
+		- sursa: http://checkstyle.sourceforge.net/google_style.html
+
+Exemplu debug
+	Rulez `./check.sh` si obtin WA la problema gigel, pe testul 4.
+		Decomentez urmatoarea linie din checker.sh
+			# DEBUG=on
+			(activez DEBUG - by default fisierele de out sunt sterse)
+
+		Ma uit in fisierele:
+		- public_test/gigel/input/4-gigel.in   // ce input am
+		- public_test/gigel/out/4-gigel.out    // ce raspuns gaseste algoritmul meu
+		- public_test/gigel/ref/4-gigel.ref    // care este raspunsul corect (asteptat)
