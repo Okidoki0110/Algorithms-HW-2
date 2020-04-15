@@ -6,6 +6,7 @@ Corcodel Denisa, 325CD
 Pe baza vectorului de distante se construieste lista muchiilor. Aceasta rezolvare are o complexitate de O (n * log n).
 
 # Task 2:
+-
 	- parcurg matricea a si caut elemnete care pot fi adaugate folosind DFS
 	- la finalul fiecarui dfs, am cate o arie, iar la sfarsit, se va calcula aria maxima dintre cele obtinute in fiecare 
 parcurgere
