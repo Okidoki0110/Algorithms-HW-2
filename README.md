@@ -1,6 +1,4 @@
-# PA-Tema-2
 
-Corcodel Denisa, 325CD
 
 # Task 1: 
 Pe baza vectorului de distante se construieste lista muchiilor. Aceasta rezolvare are o complexitate de O (n * log n).
