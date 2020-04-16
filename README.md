@@ -19,7 +19,7 @@ vecinii  (in masura in care respecta conditiile problemei)
 Consider ca dist[i][j] este distanta pana la nodul i cu ultima muchie de tipul j. Am făcut un Dijkstra modificat, care sa rețină și timpul muchiei.
 
 
-Rulare:
+# Rulare:
 
 - local:
 		./check.sh
